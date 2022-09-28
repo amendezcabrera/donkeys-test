@@ -2,7 +2,7 @@ package model;
 
 public class Donkey extends Animal{
     public Donkey(String name) {
-        this.name = "Pepito";
+        this.name = name;
     }
 
     boolean tail = true;
